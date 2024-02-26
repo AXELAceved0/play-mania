@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headerNav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.containerHeader{
+    font-size: 25px;
+    margin: 15px;
+    padding: 10px;
+}
+
+.navegacion{
+    margin: 5px;
+    text-decoration: none;
+    color: #3CCF4E;
+}
+
+.navegacion:hover{
+    color: black;
+    background-color: #3CCF4E;
+    padding: 3px; 
+    border-radius: 10px;
+}
