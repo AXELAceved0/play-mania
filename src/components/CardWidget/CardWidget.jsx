@@ -1,9 +1,10 @@
 import logo from './assets/logo.png'
+import classes from './CardWidget.module.css'
 
 const CardWidget = () => {
     return (
         <>
-        <img src={logo} alt="" />
+        <img className={classes.logo} src={logo} alt="Logo" />
         </>
     )
 }

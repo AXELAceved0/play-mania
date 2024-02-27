@@ -1,0 +1,11 @@
+.btn {
+    border: none;
+    background-color: black;
+    cursor: pointer;
+}
+
+.bootstrapIcon {
+    color: coral;
+    font-size: 25px;
+    background-color: black;
+}

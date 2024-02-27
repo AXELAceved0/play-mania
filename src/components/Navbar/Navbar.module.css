@@ -7,18 +7,19 @@
 .headerNav{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: black;
+    flex-direction: row;
 }
 
 .containerHeader{
     font-size: 25px;
-    margin: 15px;
-    padding: 10px;
+    margin: 25px;
+    padding: 18px;
 }
 
 .navegacion{
-    margin: 5px;
+    margin: 25px;
     text-decoration: none;
     color: #3CCF4E;
 }

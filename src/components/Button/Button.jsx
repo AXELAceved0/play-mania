@@ -1,7 +1,9 @@
+import classes from './Button.module.css'
+
 const Button = () => {
     return (
-        <button>
-            <i className="bi bi-cart">0</i>
+        <button className={classes.btn}>
+            <i className={`bi bi-cart ${classes.bootstrapIcon}`}>0</i>
         </button>
     )
 }
