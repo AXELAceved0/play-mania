@@ -5,7 +5,10 @@
 }
 
 .bootstrapIcon {
-    color: coral;
+    color: black;
     font-size: 25px;
-    background-color: black;
+    margin: 20px;
+    border-radius: 50px;
+    background-color: coral;
+    padding: 5px;
 }
