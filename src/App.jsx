@@ -6,7 +6,6 @@ function App() {
     <>
     <Navbar />
     <ItemListContainer greeting='Bienvenidos a Play Mania' />
-    
     </>
   )
 }

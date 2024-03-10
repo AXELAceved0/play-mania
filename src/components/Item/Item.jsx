@@ -2,11 +2,11 @@ import classes from './Item.module.css'
 
 const Item = ({img, nombre, precio}) => {
     return (
-        <div >
-        <img src={img} style={{width:200, height:300}} />
+        <div className={classes.divContainer}>
+        <img src={img} style={{width:240, height:340}} />
         <h2>{nombre}</h2>
         <h3>Precio: ${precio}</h3>
-        <button>Agregar al Carrito</button>
+        <button className={classes.Button}>Agregar al Carrito</button>
     </div>
     )
 }

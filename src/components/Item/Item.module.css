@@ -1,5 +1,15 @@
 .divContainer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+text-align: center;
+margin: 5px;
 }
+
+.Button{
+    font-size: 15px;
+    background-color: black;
+    border: none;
+    color: #3ccf4e;
+    border-radius: 4px;
+    padding: 3px;
+    cursor: pointer;
+}
+
