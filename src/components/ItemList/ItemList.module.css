@@ -1,18 +1,22 @@
 .containerDiv {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
-    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
     overflow: hidden;
+    grid-gap: 30px;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
 }
 
-.itemList > * {
-    border: solid 1px black;
-    padding: 10px; 
-    box-sizing: border-box; 
-    text-align: center;
+@media screen and (max-width: 768px) {
+    .containerDiv {
+        grid-template-columns: repeat(auto-fill, minmax(40%, 1fr)); /* Cambiar a un 40% de ancho mínimo */
+    }
 }
 
-.itemList img {
-    max-width: 100%;
-    height: auto; 
+@media screen and (max-width: 480px) {
+    .containerDiv {
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr)); /* Cambiar a un 100% de ancho mínimo */
+    }
 }
