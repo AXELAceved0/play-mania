@@ -1,4 +1,4 @@
-.containerDiv {
+.containerSection {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
     overflow: hidden;
@@ -9,14 +9,14 @@
     justify-content: center;
 }
 
-@media screen and (max-width: 768px) {
-    .containerDiv {
-        grid-template-columns: repeat(auto-fill, minmax(40%, 1fr)); /* Cambiar a un 40% de ancho mínimo */
+@media screen and (max-width: 950px) {
+    .containerSection {
+        grid-template-columns: repeat(auto-fill, minmax(40%, 2fr)); /* Cambiar a un 40% de ancho mínimo */
     }
 }
 
 @media screen and (max-width: 480px) {
-    .containerDiv {
+    .containerSection {
         grid-template-columns: repeat(auto-fill, minmax(100%, 1fr)); /* Cambiar a un 100% de ancho mínimo */
     }
 }

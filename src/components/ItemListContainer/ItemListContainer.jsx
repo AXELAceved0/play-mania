@@ -3,12 +3,12 @@ import { getProducts } from "../../asyncMock"
 import ItemList from "../ItemList/ItemList"
 
 const ItemListContainer = ({ greeting }) => {
-    const [products, setProducts] = useState([])
+    const [productos, setProductos] = useState([])
 
     useEffect(() => {
         getProducts()
             .then(result => {
-                setProducts(result)
+                setProductos(result)
             })
             .catch(error => {
                 console.log(error);
@@ -16,10 +16,10 @@ const ItemListContainer = ({ greeting }) => {
     }, [])
 
     return (
-        <div>
+        <main>
             <h1>{greeting}</h1>
-            <ItemList products={products} />
-        </div>
+            <ItemList productos={productos} />
+        </main>
     )
 }
 

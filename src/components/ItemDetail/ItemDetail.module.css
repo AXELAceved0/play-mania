@@ -1,0 +1,30 @@
+.containerdivs{
+    display: flex;
+    margin: 50px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px  solid #3CCF4E;
+    border-radius: 15px;
+}
+
+.imageContainer {
+    max-width: 350px;
+}
+
+.imageContainer img {
+    width: 100%;
+    height: auto;
+    border-radius: 18px;
+    padding: 5px;
+}
+
+.containerdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    margin: 20px;
+    color: #006a80cc;
+}

@@ -1,15 +1,15 @@
 import Item from "../Item/Item"
 import classes from "./ItemList.module.css"
 
-const ItemList = ({products}) => {
+const ItemList = ({ productos }) => {
     return (
-        <div className={classes.containerDiv}>
+        <section className={classes.containerSection}>
             {
-                products.map(products => {
-                    return <Item key={products.id} {...products}/>
+                productos.map(productos => {
+                    return <Item key={productos.id} {...productos} />
                 })
             }
-        </div>
+        </section>
     )
 }
 export default ItemList
