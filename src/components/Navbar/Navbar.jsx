@@ -1,6 +1,8 @@
 import classes from './Navbar.module.css'
 import Button from '../Button/Button'
 import CardWidget from '../CardWidget/CardWidget'
+import { Link } from 'react-router-dom'
+
 
 const Navbar = () => {
     return (
@@ -9,9 +11,9 @@ const Navbar = () => {
             <CardWidget />
             </div>
             <nav className={classes.containerHeader}>
-            <a className={classes.navegacion} href="">Inicio</a>
-            <a className={classes.navegacion} href="">Productos</a>
-            <a className={classes.navegacion} href="">Contacto</a>
+            <Link className={classes.navegacion} to={`/inicio`}>Inicio</Link>
+            <Link className={classes.navegacion} to={`/productos`}>Productos</Link>
+            <Link className={classes.navegacion} to={`/contacto`}>Contacto</Link>
             </nav>
             <div>
             <Button />
