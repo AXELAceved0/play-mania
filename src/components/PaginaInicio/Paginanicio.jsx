@@ -1,6 +1,12 @@
+import { Link } from "react-router-dom"
+
+
 const PaginaInicio = () => {
     return (
-        <h1>Bienvenido a la Pagina Principal</h1>
+        <>
+        <Link to='/categoria/PS4'>PS4</Link>
+        <Link to='/categoria/PS5'>PS5</Link>
+        </>
     )
 }
 

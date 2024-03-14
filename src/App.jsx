@@ -13,6 +13,7 @@ function App() {
         <Routes>
           <Route path='/' element={ <ItemListContainer greeting='Bienvenidos a Play Mania' /> } />
           <Route path='/inicio' element={<PaginaInicio />} />
+          <Route path='/categoria/:categoriaId' element={<ItemListContainer />} />
           <Route path='/productos' element={ <ItemListContainer />} />
           <Route path='/contacto' element={ <PaginaContacto /> } />
           <Route path='/item/:itemId' element={  <ItemDetailContainer /> } />

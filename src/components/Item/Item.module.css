@@ -12,17 +12,16 @@
     display: inline-block;
     font-size: 20px;
     background-color: black;
-    border: none;
     color: #3ccf4e;
     border-radius: 4px;
-    padding: 6px 5px;
+    padding: 6px;
     text-decoration: none;
     cursor: pointer;
-    margin: 8px;
+    margin-bottom: 15px;
 }
 
 .imagenes {
     max-width: 100%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 9px 9px 0 0;
 }

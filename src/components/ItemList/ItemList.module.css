@@ -5,8 +5,9 @@
     grid-gap: 30px;
     align-content: center;
     justify-items: center;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
+    padding: 15px;
 }
 
 @media screen and (max-width: 950px) {
