@@ -7,7 +7,7 @@ const productos = [
 {id: '4' , nombre: 'Horizon Forbidden West' , precio:18000 , formato: 'digital' , categoria: 'PS4',descripcion:'Juego digital para tu consola favorita', img:`${Imagen.horizonfw}`, stock:5},
 {id: '5' , nombre: 'Grand Theft Auto V' , precio:14000 , formato: 'digital' , categoria: 'PS4',descripcion:'Juego digital para tu consola favorita', img:`${Imagen.gtav}`, stock:5},
 {id: '6' , nombre: 'FC24' , precio:32000 , formato:'digital' , categoria: 'PS4',descripcion:'Juego digital para tu consola favorita', img:`${Imagen.fc24}`, stock:5},
-{id: '7' , nombre: 'Batman: Arkman Coollection' , precio:9500 , formato: 'digital' , categoria: 'PS4',descripcion:'Juego digital para tu consola favorita', img:`${Imagen.batmancollection}`, stock:5},
+{id: '7' , nombre: 'Batman: Arkman Collection' , precio:9500 , formato: 'digital' , categoria: 'PS4',descripcion:'Juego digital para tu consola favorita', img:`${Imagen.batmancollection}`, stock:5},
 {id: '8' , nombre: 'God of War' , precio:16000 , formato: 'digital' , categoria: 'PS4',descripcion:'Juego digital para tu consola favorita', img:`${Imagen.god}`, stock:5},
 {id: '9' , nombre: 'A Plague Tale: Requiem' , precio:24000 , formato: 'digital' , categoria: 'PS5',descripcion:'Juego digital para tu consola favorita', img:`${Imagen.aplague}`, stock:5},
 {id: '10' , nombre: 'Resident Evil 4' , precio:23000 , formato: 'digital' , categoria: 'PS4',descripcion:'Juego digital para tu consola favorita', img:`${Imagen.resident4}`, stock:5},
